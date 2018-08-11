@@ -110,3 +110,24 @@ a{
     height: 30px;
     width: 80px;
 }
+
+@media only screen and (max-width: 640px){
+    header{
+        margin: 0 auto;
+        padding: 0;
+        
+
+    }
+    .namePlate{
+        float: left;
+        margin: 0 auto;
+        text-align: center;
+        width: 100%;
+    }
+    .navBar{
+        float:left;
+        margin: 0 auto;
+        justify-content: center;
+        width: 100%;
+    }
+}
